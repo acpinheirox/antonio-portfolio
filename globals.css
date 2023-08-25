@@ -49,9 +49,47 @@ header .header__left h2{
 header .header__right .header__image{
   position: relative;
   line-height: 0;
+  margin-top: -70px;
+}
+/*SOBRE*/
+
+.icones{
+  font-size: 30px;
 
 }
 
+.about{
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  scroll-margin-top: 20rem;
+}
+
+.about .about__left{
+  max-width: 40rem;
+  flex: 1;
+}
+
+.about .about__left p{
+  margin: 1rem 0 2rem;
+}
+.about .about__left ul{
+  margin-left: -1.2rem;
+}
+
+.about .about__left ul li{
+  display: inline-block;
+}
+
+.about .about__left ul li a{
+  display: inline-block;
+  padding: 1rem;
+}
+
+.about .about__right{
+  flex: 1;
+  max-width: 66rem;
+}
   html {
     font-size: 62.5%;
   }
