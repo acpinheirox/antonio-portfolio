@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:ital,wght@1,700&display=swap');
+
 :root {
   --white: #ffffff;
   --gray: #d9d9d9;
@@ -30,6 +32,10 @@
   #header{
   padding-top: 10px;
 }
+header h1{
+  font-family: 'Roboto Slab', serif;
+  font-size: 70px;
+}
   header .header__left{
     max-width: 800px;
     flex: 1;
@@ -54,10 +60,13 @@ header .header__right .header__image{
 /*SOBRE*/
 
 .icones{
-  font-size: 30px;
-
+  font-size: 35px;
+  transition: 0.7s all;
 }
-
+.icones:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 5px 10px rgba(211, 211, 211, 0.2);
+}
 .about{
   display: flex;
   justify-content: space-between;
@@ -85,7 +94,9 @@ header .header__right .header__image{
   display: inline-block;
   padding: 1rem;
 }
-
+.about h2{
+  font-family: 'Roboto Slab', serif;
+}
 .about .about__right{
   flex: 1;
   max-width: 66rem;
