@@ -19,7 +19,39 @@
     scroll-behavior: smooth;
     font-family: var(--font-family);
   }
-  
+  /*HEADER*/
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+}
+  #header{
+  padding-top: 10px;
+}
+  header .header__left{
+    max-width: 800px;
+    flex: 1;
+}
+
+header .header__left p{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    max-width: 50rem;
+}
+
+header .header__left h2{
+  color: #02073e;
+}
+
+
+header .header__right .header__image{
+  position: relative;
+  line-height: 0;
+
+}
+
   html {
     font-size: 62.5%;
   }
