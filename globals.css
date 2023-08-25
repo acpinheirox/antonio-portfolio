@@ -55,7 +55,7 @@ header .header__left h2{
 header .header__right .header__image{
   position: relative;
   line-height: 0;
-  margin-top: -70px;
+  margin-top: 0px;
 }
 /*SOBRE*/
 
@@ -137,7 +137,7 @@ header .header__right .header__image{
 
 .skills .skills__content ul li h3{
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: bold;
   margin: 2rem 0 1rem;
 }
   html {
