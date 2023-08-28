@@ -62,10 +62,15 @@ header .header__right .header__image{
 .icones{
   font-size: 35px;
   transition: 0.7s all;
+  margin-top: -50px;
 }
 .icones:hover{
   transform: translateY(-10px);
   box-shadow: 0 5px 10px rgba(211, 211, 211, 0.2);
+}
+.btn{
+  cursor: pointer;
+  margin-top: 5px;
 }
 .about{
   display: flex;
@@ -104,7 +109,7 @@ header .header__right .header__image{
 
   /*HABILIDADES*/
   .skills{
-    background-color: #f3fffd;
+    background-color: #f9fffe;
     scroll-margin-top: 15rem;
   }
 .skills .skills__content{
@@ -123,7 +128,7 @@ header .header__right .header__image{
 }
 
 .skills .skills__content ul li .image-container{
-  background-color: #f7ffff;
+
   padding: 2rem;
   border-radius: 50%;
   width: 7rem;
@@ -131,7 +136,6 @@ header .header__right .header__image{
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
   margin: 0 auto;
 }
 
