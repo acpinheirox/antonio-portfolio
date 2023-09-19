@@ -50,6 +50,10 @@ header .header__right .header__image{
   cursor: pointer;
   margin-top: 5px;
 }
+
+.download:hover{
+  color: #a0bfe5;
+}
 .about{
   display: flex;
   justify-content: space-between;
