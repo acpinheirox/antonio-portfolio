@@ -1,0 +1,29 @@
+footer{
+    margin-top: 300px;
+    background: linear-gradient(90deg, #ffffff 20%, rgb(243, 252, 251) 80%);
+    scroll-margin-top: 15rem;
+    box-shadow: 0 0 40px #e4fdfc;
+}
+
+footer .footer__content{
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 47rem;
+}
+footer .footer__content .footer__contact span{
+    display: block;
+    font-weight: 500;
+}
+
+footer .footer__content ul li{
+    display: inline-block;
+}
+
+footer .footer__content ul a{
+    display: inline-block;
+    padding: 1rem;
+}
+
+footer .footer__content .footer__conpyright{
+    font-size: 1.4rem;
+}

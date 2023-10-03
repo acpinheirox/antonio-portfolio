@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:ital,wght@1,700&display=swap');
   /*HEADER*/
-  
+  body{
+    overflow-x: hidden;
+  }
   header{
     
     display: flex;
@@ -56,10 +58,14 @@ header .header__right .header__image{
   box-shadow: 0 5px 10px rgba(211, 211, 211, 0.2);
 }
 .btn{
+  background-color: #01443C;
+  color: white;
   cursor: pointer;
   margin-top: 5px;
 }
-
+.btn:hover{
+background-color:  #014d44;
+}
 .download:hover{
   color: #a0bfe5;
 }
@@ -259,6 +265,13 @@ header .header__right .header__image{
     justify-content: center;
     align-items: center;
   }
+  section.projects .flex p{
+    display: block;
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: -100px;
+    text-align: center;
+  }
   section.projects .flex{
     margin-top: -70px;
     margin-left: -10px;
@@ -336,6 +349,9 @@ header .header__right .header__image{
       flex-direction: column;
       align-items: center;
     }
+    .about h3{
+      font-size: 35px;
+    }
     .about .about__left{
       max-width: 66rem;
       text-align: center;
@@ -355,8 +371,10 @@ header .header__right .header__image{
       text-align: center;
       flex-direction: column;
     }
+
     .projects .interface .flex{
       flex-direction: column;
+      row-gap: 110px;
     }
     .navbar .navbar__content .navbar__links{
       display: none;
@@ -365,12 +383,14 @@ header .header__right .header__image{
     .navbar .navbar__content .navbar__mobile .mobile-links{
       display: flex;
       align-items: center;
+      
     }
 
     .navbar .navbar__content .navbar__mobile .burguer{
       cursor: pointer;
       width: 3.6rem;
       height: 3.6rem;
+      
     }
 
   .navbar .navbar__content .navbar__mobile.active .mobile__links{
@@ -384,6 +404,7 @@ header .header__right .header__image{
     padding: 1rem 0;
     box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
     z-index: 1;
+
   } 
   .navbar .navbar__content .navbar__mobile.active .mobile__links li{
     margin-right: 0;
