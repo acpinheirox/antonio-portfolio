@@ -100,8 +100,9 @@ header .header__right .header__image{
 
   /*HABILIDADES*/
   .skills{
-    background: linear-gradient(90deg, #ffffff 0%, #e2fffc 100%);
+    background: linear-gradient(90deg, #ffffff 20%, rgb(243, 252, 251) 80%);
     scroll-margin-top: 15rem;
+    box-shadow: 0 0 40px #e4fdfc;
   }
 .skills .skills__content{
   padding: 6rem 4rem;
@@ -259,7 +260,8 @@ header .header__right .header__image{
     align-items: center;
   }
   section.projects .flex{
-    margin-left: -20px;
+    margin-top: -70px;
+    margin-left: -10px;
     display:flex;
     flex-direction: row;
   }
@@ -276,8 +278,21 @@ header .header__right .header__image{
     align-items: center;
   }
   .img-proj{
-    width: 360px;
+    width: 340px;
     height: 260px;
+    transition: 0.7s all;
+    position: relative;
+  }
+  .img-proj:hover{
+    transform: translateY(-10px);
+  }
+  /*MOBILE*/
+  .navbar.active{
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+  }
+  .navbar .navbar__content .navbar__mobile,
+  .navbar .navbar__content .navbar__mobile .mobile__links{
+    display: none;
   }
   /*RESPONSIVO*/
   @media only screen and (max-width: 1024px) {
@@ -298,8 +313,87 @@ header .header__right .header__image{
     .max-width {
       padding: 0 2rem;
     }
+    header{
+      flex-direction: column;
+      text-align: center;
+    }
+    header h1{
+      font-size: 45px;
+    }
+    header h2{
+      font-size: 20px;
+    }
+    header img{
+      width: 100%;
+      height: 100%;
+      margin-top: 60px;
+    }
+    header .header__left p{
+      margin: 2rem auto 4rem;
+    }
+
+    .about{
+      flex-direction: column;
+      align-items: center;
+    }
+    .about .about__left{
+      max-width: 66rem;
+      text-align: center;
+    }
+    .about .about__right{
+      text-align: center;
+    }
+    .skills{
+      align-items: center;
+      flex-direction: column;
+    }
+    .skills .mobile{
+      flex-direction: column;
+      text-align: center;
+    }
+    .projects{
+      text-align: center;
+      flex-direction: column;
+    }
+    .projects .interface .flex{
+      flex-direction: column;
+    }
+    .navbar .navbar__content .navbar__links{
+      display: none;
+    }
+    .navbar .navbar__content .navbar__mobile,
+    .navbar .navbar__content .navbar__mobile .mobile-links{
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar .navbar__content .navbar__mobile .burguer{
+      cursor: pointer;
+      width: 3.6rem;
+      height: 3.6rem;
+    }
+
+  .navbar .navbar__content .navbar__mobile.active .mobile__links{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 98%;
+    left: 0;
+    padding: 1rem 0;
+    box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  } 
+  .navbar .navbar__content .navbar__mobile.active .mobile__links li{
+    margin-right: 0;
+  } 
+  .navbar .navbar__content .navbar__mobile.active .mobile__links li a{
+    padding: 1rem;
+    display: block;
+    text-align: center;
+  } 
   }
-  
   @media only screen and (max-width: 425px) {
     h1 {
       font-size: 4.2rem;
