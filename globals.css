@@ -251,7 +251,34 @@ header .header__right .header__image{
   .mb-xl {
     margin-bottom: 6rem;
   }
-  
+  /*PROJETOS*/
+
+  section.projects{
+    padding: -50px 4%;
+    justify-content: center;
+    align-items: center;
+  }
+  section.projects .flex{
+    margin-left: -20px;
+    display:flex;
+    flex-direction: row;
+  }
+
+  section.projects .tertiary-title{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  section.projects .description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-proj{
+    width: 360px;
+    height: 260px;
+  }
   /*RESPONSIVO*/
   @media only screen and (max-width: 1024px) {
     html {
