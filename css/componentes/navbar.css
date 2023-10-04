@@ -29,8 +29,9 @@
     padding: 1rem;
     display: inline-block;
     font-family: 'Roboto Slab', serif;
+    color: #01443C;
 }
 
 .navbar .navbar__content .navbar__links a:hover{
-    color: #1c258f;
+    color: #005a50;
 }
