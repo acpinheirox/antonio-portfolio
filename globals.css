@@ -106,7 +106,7 @@ background-color:  #014d44;
 
   /*HABILIDADES*/
   .skills{
-    background: linear-gradient(90deg, #ffffff 20%, rgb(243, 252, 251) 80%);
+    background: linear-gradient(90deg, #ffffff 30%, #01ff5621 70%);
     scroll-margin-top: 15rem;
     box-shadow: 0 0 40px #e4fdfc;
   }
