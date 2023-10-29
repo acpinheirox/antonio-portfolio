@@ -275,6 +275,8 @@ background-color:  #014d44;
   section.projects .flex{
     margin-top: -70px;
     margin-left: -10px;
+    justify-content: space-evenly;
+    align-items: center;
     display:flex;
     flex-direction: row;
   }
@@ -299,6 +301,21 @@ background-color:  #014d44;
   .img-proj:hover{
     transform: translateY(-10px);
   }
+
+  .icones-skills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    
+  }
+  .skill-ling{
+    transition: 0.7s all;
+  }
+  .skill-ling:hover{
+    transform: translateY(-10px);
+  }
+
   /*MOBILE*/
   .navbar.active{
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
